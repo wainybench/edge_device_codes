@@ -3,9 +3,9 @@ import json
 from vosk import Model , KaldiRecognizer
 
 #Loading the sihmod
-print("sihmod loading")
+print("model loading")
 try:
-    sihmod = sihmod("sihmod")
+    sihmod = Model("sihmod")
 except Exception as e:
     print("Error Thrown, model no found")
     exit()
