@@ -1,6 +1,6 @@
 import pyaudio
 import json
-from vosk import sihmod, KaldiRecognizer
+from vosk import Model , KaldiRecognizer
 
 #Loading the sihmod
 print("sihmod loading")
